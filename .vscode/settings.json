@@ -1,0 +1,26 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll": true
+  },
+  "editor.formatOnSave": false,
+  "eslint.format.enable": true,
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[yaml]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": false,
+      "source.fixAll": false
+    }
+  },
+  "eslint.validate": ["javascript", "typescript", "vue", "json"],
+  "cSpell.words": [
+    "vuex",
+    "Vuex",
+  ]
+}
