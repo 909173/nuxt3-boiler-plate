@@ -2,6 +2,7 @@
   "recommendations": [
     "johnsoncodehk.volar",
     "dbaeumer.vscode-eslint",
+    "EditorConfig.EditorConfig"
   ],
   "unwantedRecommendations": [
     "octref.vetur",

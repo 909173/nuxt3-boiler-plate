@@ -8,6 +8,7 @@ module.exports = {
     "plugin:vue/essential",
     "plugin:@typescript-eslint/recommended",
     "@nuxtjs/eslint-config-typescript",
+    "plugin:vue/vue3-recommended",
     "plugin:prettier/recommended",
     "prettier",
   ],

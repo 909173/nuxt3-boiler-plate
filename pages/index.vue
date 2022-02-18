@@ -1,8 +1,10 @@
-<template lang="pug">
-div hello-world
+<template>
+  <jobsVue></jobsVue>
 </template>
 
 <script setup lang="ts">
-const { data } = await useFetch("/api/hello")
-console.log(data)
+import { useJobsState } from "~~/composables/jobs"
+import jobsVue from "~~/components/molcules/jobs.vue"
+const jobs = useJobsState()
+await jobs.fetchJobs()
 </script>
